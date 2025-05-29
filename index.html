@@ -6,76 +6,70 @@
     <title>BBYO Global Music Tracker</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <meta name="description" content="Discover which music artists are popular across BBYO countries worldwide. Perfect for event planning and understanding global teen music trends.">
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
         <header class="header">
             <h1>BBYO Global Music Tracker</h1>
-            <p>Discover artists with global teen appeal across 50 BBYO regions worldwide</p>
-            <div class="header-stats">
-                <span class="stat-badge">50 BBYO Regions</span>
-                <span class="stat-badge">Real-Time Data</span>
-                <span class="stat-badge">Current Charts</span>
-            </div>
+            <p>Discover artists with global teen appeal across 50 BBYO regions</p>
         </header>
 
-        <!-- Color Coding Key -->
-
+        <div class="color-key">
+            <h3>Global Reach Levels</h3>
+            <div class="key-grid">
+                <div class="key-item">
+                    <div class="key-dot mega-global"></div>
+                    <span>Mega Global (20+)</span>
+                </div>
+                <div class="key-item">
+                    <div class="key-dot super-global"></div>
+                    <span>Super Global (15-19)</span>
+                </div>
+                <div class="key-item">
+                    <div class="key-dot very-global"></div>
+                    <span>Very Global (10-14)</span>
+                </div>
+                <div class="key-item">
+                    <div class="key-dot global"></div>
+                    <span>Global (5-9)</span>
+                </div>
+                <div class="key-item">
+                    <div class="key-dot regional"></div>
+                    <span>Regional (2-4)</span>
                 </div>
             </div>
         </div>
 
-        <!-- Controls -->
         <div class="controls">
             <div class="search-section">
-                <div class="search-wrapper">
-                    <input type="text" id="searchInput" placeholder="Search artists or regions..." />
-                    <span class="search-icon">🔍</span>
-                </div>
-                
-                <select id="minCountries" class="filter-select">
+                <input type="text" id="searchInput" placeholder="Search artists or regions..." />
+                <select id="minCountries">
                     <option value="1" selected>All Artists</option>
                     <option value="3">3+ Regions</option>
                     <option value="5">5+ Regions</option>
                     <option value="10">Super Global (10+)</option>
                     <option value="15">Mega Global (15+)</option>
                 </select>
-                
-                <button id="resetBtn" class="reset-btn">Reset</button>
+                <button id="resetBtn">Reset</button>
             </div>
-            
-            <div class="stats-bar">
-                <div class="stat-item">
-                    <span class="stat-label">Showing:</span>
-                    <strong id="showingCount">0</strong> of <strong id="totalCount">0</strong>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Avg Countries:</span>
-                    <strong id="avgOverlap">0</strong>
-                </div>
-                <div class="stat-item" id="dataSource">
-                    <span class="stat-label">Source:</span>
-                    <strong>Loading...</strong>
-                </div>
+            <div class="stats">
+                <span>Showing <strong id="showingCount">0</strong> of <strong id="totalCount">0</strong> artists</span>
+                <span>•</span>
+                <span>Average: <strong id="avgOverlap">0</strong> regions</span>
             </div>
         </div>
 
-        <!-- Loading State -->
         <div id="loading" class="loading">
             <div class="spinner"></div>
             <p>Loading global music data...</p>
-            <small>Analyzing charts from 50 BBYO regions worldwide</small>
         </div>
 
-        <!-- Results Table -->
         <div id="results" class="results" style="display: none;">
             <div class="results-header">
                 <h2>Global Artists</h2>
-                <div class="view-options">
-                    <button id="expandAllBtn" class="action-btn">Expand All</button>
-                    <button id="collapseAllBtn" class="action-btn">Collapse All</button>
+                <div class="actions">
+                    <button id="expandAllBtn">Expand All</button>
+                    <button id="collapseAllBtn">Collapse All</button>
                 </div>
             </div>
             
@@ -97,21 +91,11 @@
             </div>
             
             <div id="noResults" class="no-results" style="display: none;">
-                <div class="no-results-content">
-                    <h3>No artists found</h3>
-                    <p>Try adjusting your search or filter criteria</p>
-                    <button id="showAllBtn" class="show-all-btn">Show All Artists</button>
-                </div>
+                <h3>No artists found</h3>
+                <p>Try adjusting your search or filter criteria</p>
+                <button id="showAllBtn">Show All Artists</button>
             </div>
         </div>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-content">
-                <p><strong>BBYO Global Music Tracker</strong> - Helping connect teens worldwide through music</p>
-                <p class="footer-note">Data sourced from current Spotify charts via kworb.net • Updated regularly</p>
-            </div>
-        </footer>
     </div>
 
     <script src="script.js"></script>
