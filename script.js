@@ -370,11 +370,11 @@ class BBYOMusicTracker {
     }
 
     getPopularityData(countryCount) {
-        if (countryCount >= 15) {
+        if (countryCount >= 20) {
             return { level: 'mega-global', label: 'Mega Global' };
-        } else if (countryCount >= 10) {
+        } else if (countryCount >= 15) {
             return { level: 'super-global', label: 'Super Global' };
-        } else if (countryCount >= 7) {
+        } else if (countryCount >= 10) {
             return { level: 'very-global', label: 'Very Global' };
         } else if (countryCount >= 5) {
             return { level: 'global', label: 'Global' };
