@@ -138,10 +138,10 @@ class MusicTracker {
 
     resetFilters() {
         document.getElementById('searchInput').value = '';
-        document.getElementById('minCountries').value = '3';
+        document.getElementById('minCountries').value = '1'; // Changed to show all artists by default
         
         this.filteredArtists = [...this.artists];
-        this.applyCountryFilter(3);
+        this.applyCountryFilter(1); // Apply "All Artists" filter
         this.expandedRows.clear();
         this.renderTable();
         this.updateStats();
