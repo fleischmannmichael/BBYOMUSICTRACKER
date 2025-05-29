@@ -16,27 +16,25 @@ class BBYOMusicTracker {
     }
 
     setupEventListeners() {
-        // Search input with debounce
+        // Search with gentle debounce - not too aggressive
         const searchInput = document.getElementById('searchInput');
         let searchTimeout;
         searchInput.addEventListener('input', (e) => {
             clearTimeout(searchTimeout);
             searchTimeout = setTimeout(() => {
                 this.handleSearch(e.target.value);
-            }, 300);
+            }, 400); // Slightly longer delay for calmer feel
         });
 
-        // Filter dropdown
+        // Standard event listeners
         document.getElementById('minCountries').addEventListener('change', (e) => {
             this.handleFilter(parseInt(e.target.value));
         });
 
-        // Reset button
         document.getElementById('resetBtn').addEventListener('click', () => {
             this.resetFilters();
         });
 
-        // Expand/Collapse all buttons
         document.getElementById('expandAllBtn').addEventListener('click', () => {
             this.expandAll();
         });
@@ -45,19 +43,15 @@ class BBYOMusicTracker {
             this.collapseAll();
         });
 
-        // Show all button (in no results)
         document.getElementById('showAllBtn').addEventListener('click', () => {
             this.showAllArtists();
         });
 
-        // Keyboard shortcuts
+        // Simplified keyboard shortcuts
         document.addEventListener('keydown', (e) => {
             if (e.key === '/' && !e.target.matches('input, textarea')) {
                 e.preventDefault();
                 document.getElementById('searchInput').focus();
-            }
-            if (e.key === 'Escape') {
-                this.resetFilters();
             }
         });
     }
@@ -147,13 +141,10 @@ class BBYOMusicTracker {
         
         console.log(`✅ Loaded ${this.artists.length} sample artists`);
         
-        // Show helpful info about getting real data - simplified
+        // Reduced logging - less overwhelming console output
         setTimeout(() => {
-            console.log('To use real data from all 50 BBYO regions:');
-            console.log('1. Run: python generate_data.py');
-            console.log('2. Ensure artists.json is in the same folder');
-            console.log('3. For local testing: python -m http.server 8000');
-        }, 1500);
+            console.log('Ready! Use real data: python generate_data.py');
+        }, 2000);
     }
 
     applyInitialFilter() {
@@ -466,16 +457,7 @@ class BBYOMusicTracker {
     }
 }
 
-// Initialize the application when DOM is loaded
+// Initialize when DOM loads - clean and simple
 document.addEventListener('DOMContentLoaded', () => {
     window.musicTracker = new BBYOMusicTracker();
-    
-    // Add some visual polish
-    document.body.classList.add('loaded');
-    
-    // Performance monitoring
-    if (window.performance && window.performance.now) {
-        const loadTime = window.performance.now();
-        console.log(`🚀 BBYO Music Tracker loaded in ${loadTime.toFixed(1)}ms`);
-    }
 });
