@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBYO Global Music Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Discover which music artists are popular across BBYO countries worldwide. Perfect for event planning and understanding global teen music trends.">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>BBYO Global Music Tracker</h1>
+            <p>Discover artists with global teen appeal across BBYO countries</p>
+            <div class="header-stats">
+                <span class="stat-badge">29 Countries</span>
+                <span class="stat-badge">Real-Time Data</span>
+                <span class="stat-badge">Current Charts</span>
+            </div>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="search-section">
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Search artists or countries..." />
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <select id="minCountries" class="filter-select">
+                    <option value="1" selected>All Artists</option>
+                    <option value="3">3+ Countries</option>
+                    <option value="5">5+ Countries</option>
+                    <option value="10">Super Global (10+)</option>
+                    <option value="15">Mega Global (15+)</option>
+                </select>
+                
+                <button id="resetBtn" class="reset-btn">Reset</button>
+            </div>
+            
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-label">Showing:</span>
+                    <strong id="showingCount">0</strong> of <strong id="totalCount">0</strong>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Avg Countries:</span>
+                    <strong id="avgOverlap">0</strong>
+                </div>
+                <div class="stat-item" id="dataSource">
+                    <span class="stat-label">Source:</span>
+                    <strong>Loading...</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading global music data...</p>
+            <small>Analyzing charts from 29 BBYO countries</small>
+        </div>
+
+        <!-- Results Table -->
+        <div id="results" class="results" style="display: none;">
+            <div class="results-header">
+                <h2>Global Artists</h2>
+                <div class="view-options">
+                    <button id="expandAllBtn" class="action-btn">Expand All</button>
+                    <button id="collapseAllBtn" class="action-btn">Collapse All</button>
+                </div>
+            </div>
+            
+            <div class="table-container">
+                <table class="artists-table">
+                    <thead>
+                        <tr>
+                            <th class="rank-col">#</th>
+                            <th class="artist-col">Artist</th>
+                            <th class="popularity-col">Global Reach</th>
+                            <th class="count-col">Countries</th>
+                            <th class="expand-col">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody id="artistTableBody">
+                        <!-- Artists populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="noResults" class="no-results" style="display: none;">
+                <div class="no-results-content">
+                    <h3>No artists found</h3>
+                    <p>Try adjusting your search or filter criteria</p>
+                    <button id="showAllBtn" class="show-all-btn">Show All Artists</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p><strong>BBYO Global Music Tracker</strong> - Helping connect teens worldwide through music</p>
+                <p class="footer-note">Data sourced from current Spotify charts via kworb.net • Updated regularly</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
