@@ -149,7 +149,7 @@ class BBYOMusicTracker {
         
         // Show helpful info about getting real data
         setTimeout(() => {
-            console.log('💡 To use real data:');
+            console.log('To use real data from all 50 BBYO regions:');
             console.log('1. Run: python generate_data.py');
             console.log('2. Ensure artists.json is in the same folder as index.html');
             console.log('3. For local testing: python -m http.server 8000');
@@ -326,7 +326,7 @@ class BBYOMusicTracker {
                 </td>
                 <td class="country-count">
                     <span class="country-count-number">${artist.country_count}</span>
-                    <span class="country-count-label">${artist.country_count === 1 ? 'country' : 'countries'}</span>
+                    <span class="country-count-label">${artist.country_count === 1 ? 'region' : 'regions'}</span>
                 </td>
                 <td class="expand-col">
                     <button class="expand-btn ${expandedBtnClass}" data-artist="${this.escapeHtml(artist.artist)}" 
@@ -344,7 +344,7 @@ class BBYOMusicTracker {
                 <tr class="country-details">
                     <td colspan="5">
                         <div class="countries-header">
-                            Global Reach Analysis: ${artist.country_count} Countries
+                            Global Reach Analysis: ${artist.country_count} BBYO Regions
                         </div>
                         <div class="regions-container">
                             ${Object.entries(regions).map(([region, countries]) => `
@@ -389,14 +389,16 @@ class BBYOMusicTracker {
         
         let insight = `This artist has strong appeal across ${regionCount} region${regionCount > 1 ? 's' : ''}.`;
         
-        if (countryCount >= 15) {
-            insight += " Perfect for global BBYO events with massive cross-cultural appeal.";
+        if (countryCount >= 20) {
+            insight += " Perfect for global BBYO conventions with massive cross-cultural appeal.";
+        } else if (countryCount >= 15) {
+            insight += " Excellent choice for international BBYO gatherings and IC events.";
         } else if (countryCount >= 10) {
-            insight += " Excellent choice for international BBYO gatherings.";
+            insight += " Great for multi-regional BBYO events with broad teen appeal.";
         } else if (countryCount >= 5) {
-            insight += " Great for regional BBYO events with broad teen appeal.";
+            insight += " Popular across key BBYO markets - good for regional conventions.";
         } else {
-            insight += " Popular in key markets - good for targeted events.";
+            insight += " Strong in specific markets - ideal for targeted local events.";
         }
         
         return insight;
@@ -409,7 +411,8 @@ class BBYOMusicTracker {
             'Europe': [],
             'Latin America': [],
             'Asia Pacific': [],
-            'Other': []
+            'Africa & Middle East': [],
+            'BBYO US Regions': []
         };
 
         countries.forEach(country => {
@@ -417,14 +420,17 @@ class BBYOMusicTracker {
                 regions['Global'].push(country);
             } else if (['USA', 'Canada'].includes(country)) {
                 regions['North America'].push(country);
-            } else if (['UK', 'Germany', 'France', 'Netherlands', 'Spain', 'Italy', 'Sweden', 'Norway', 'Denmark', 'Belgium', 'Switzerland', 'Austria', 'Ireland', 'Poland', 'Czech Republic', 'Portugal', 'Finland'].includes(country)) {
+            } else if (['UK', 'Germany', 'France', 'Netherlands', 'Spain', 'Italy', 'Sweden', 'Norway', 'Denmark', 'Belgium', 'Switzerland', 'Austria', 'Ireland', 'Poland', 'Czech Republic', 'Portugal', 'Finland', 'Estonia', 'Latvia', 'Lithuania', 'Croatia', 'Romania', 'Bulgaria', 'Hungary', 'Slovakia'].includes(country)) {
                 regions['Europe'].push(country);
-            } else if (['Mexico', 'Argentina', 'Colombia', 'Chile', 'Brazil', 'Peru', 'Uruguay'].includes(country)) {
+            } else if (['Mexico', 'Argentina', 'Colombia', 'Chile', 'Brazil', 'Peru', 'Uruguay', 'Venezuela', 'Costa Rica'].includes(country)) {
                 regions['Latin America'].push(country);
-            } else if (['Australia', 'New Zealand', 'Japan', 'South Korea', 'India', 'Philippines', 'Singapore', 'Malaysia', 'Thailand', 'Indonesia', 'Vietnam', 'Taiwan', 'Hong Kong'].includes(country)) {
+            } else if (['Australia', 'New Zealand', 'Japan', 'South Korea', 'India', 'Philippines', 'Singapore', 'Malaysia', 'Thailand', 'Indonesia', 'Taiwan', 'Hong Kong', 'China'].includes(country)) {
                 regions['Asia Pacific'].push(country);
+            } else if (['South Africa', 'Israel', 'Turkey', 'Morocco', 'Kenya', 'Uganda'].includes(country)) {
+                regions['Africa & Middle East'].push(country);
             } else {
-                regions['Other'].push(country);
+                // BBYO US/Canada regional chapters would go here
+                regions['BBYO US Regions'].push(country);
             }
         });
 

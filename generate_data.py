@@ -13,12 +13,15 @@ from collections import defaultdict
 import os
 import re
 
-# BBYO Countries with their kworb.net chart URLs
+# BBYO Countries and Regions with their kworb.net chart URLs
 CHART_URLS = {
+    # Global Charts
     "Global": "https://kworb.net/spotify/country/global_daily.html",
+    
+    # Major Countries
     "USA": "https://kworb.net/spotify/country/us_daily.html", 
-    "UK": "https://kworb.net/spotify/country/gb_daily.html",
     "Canada": "https://kworb.net/spotify/country/ca_daily.html",
+    "UK": "https://kworb.net/spotify/country/gb_daily.html",
     "Germany": "https://kworb.net/spotify/country/de_daily.html",
     "France": "https://kworb.net/spotify/country/fr_daily.html",
     "Australia": "https://kworb.net/spotify/country/au_daily.html",
@@ -43,7 +46,30 @@ CHART_URLS = {
     "Colombia": "https://kworb.net/spotify/country/co_daily.html",
     "Israel": "https://kworb.net/spotify/country/il_daily.html",
     "South Africa": "https://kworb.net/spotify/country/za_daily.html",
-    "New Zealand": "https://kworb.net/spotify/country/nz_daily.html"
+    "New Zealand": "https://kworb.net/spotify/country/nz_daily.html",
+    "Japan": "https://kworb.net/spotify/country/jp_daily.html",
+    "South Korea": "https://kworb.net/spotify/country/kr_daily.html",
+    "India": "https://kworb.net/spotify/country/in_daily.html",
+    "Singapore": "https://kworb.net/spotify/country/sg_daily.html",
+    "Thailand": "https://kworb.net/spotify/country/th_daily.html",
+    "Philippines": "https://kworb.net/spotify/country/ph_daily.html",
+    "Malaysia": "https://kworb.net/spotify/country/my_daily.html",
+    "Indonesia": "https://kworb.net/spotify/country/id_daily.html",
+    "Taiwan": "https://kworb.net/spotify/country/tw_daily.html",
+    "Hong Kong": "https://kworb.net/spotify/country/hk_daily.html",
+    "Turkey": "https://kworb.net/spotify/country/tr_daily.html",
+    "Romania": "https://kworb.net/spotify/country/ro_daily.html",
+    "Bulgaria": "https://kworb.net/spotify/country/bg_daily.html",
+    "Hungary": "https://kworb.net/spotify/country/hu_daily.html",
+    "Slovakia": "https://kworb.net/spotify/country/sk_daily.html",
+    "Estonia": "https://kworb.net/spotify/country/ee_daily.html",
+    "Latvia": "https://kworb.net/spotify/country/lv_daily.html",
+    "Lithuania": "https://kworb.net/spotify/country/lt_daily.html",
+    "Croatia": "https://kworb.net/spotify/country/hr_daily.html",
+    "Peru": "https://kworb.net/spotify/country/pe_daily.html",
+    "Uruguay": "https://kworb.net/spotify/country/uy_daily.html",
+    "Venezuela": "https://kworb.net/spotify/country/ve_daily.html",
+    "Costa Rica": "https://kworb.net/spotify/country/cr_daily.html"
 }
 
 def clean_artist_name(raw_artist):
@@ -127,10 +153,11 @@ def scrape_country_chart(url, country_name, top_n=50):
 def find_global_overlaps(min_countries=2):
     """Find artists that appear in multiple countries' current charts."""
     print("🌍 BBYO Global Music Overlap Analysis")
-    print("=" * 50)
-    print("📊 Analyzing current Spotify charts across BBYO countries")
+    print("=" * 60)
+    print("📊 Analyzing current Spotify charts across 50 BBYO regions")
     print("⚡ Using real-time streaming data from kworb.net")
-    print("=" * 50)
+    print("🎯 Supporting BBYO communities worldwide")
+    print("=" * 60)
     
     artist_countries = defaultdict(set)  # Use set to avoid duplicates
     successful_countries = 0
