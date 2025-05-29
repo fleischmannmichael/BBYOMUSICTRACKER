@@ -147,13 +147,13 @@ class BBYOMusicTracker {
         
         console.log(`✅ Loaded ${this.artists.length} sample artists`);
         
-        // Show helpful info about getting real data
+        // Show helpful info about getting real data - simplified
         setTimeout(() => {
             console.log('To use real data from all 50 BBYO regions:');
             console.log('1. Run: python generate_data.py');
-            console.log('2. Ensure artists.json is in the same folder as index.html');
+            console.log('2. Ensure artists.json is in the same folder');
             console.log('3. For local testing: python -m http.server 8000');
-        }, 2000);
+        }, 1500);
     }
 
     applyInitialFilter() {
@@ -274,14 +274,14 @@ class BBYOMusicTracker {
             return this.createTableRow(artist, index + 1, isExpanded);
         }).join('');
 
-        // Add click listeners for expansion
+        // Add click listeners for expansion - simplified
         tbody.querySelectorAll('.artist-row').forEach(row => {
             row.addEventListener('click', (e) => {
                 if (e.target.closest('.expand-btn')) return;
                 this.toggleRow(row.dataset.artist);
             });
             
-            // Add keyboard accessibility
+            // Simple keyboard accessibility
             row.setAttribute('tabindex', '0');
             row.addEventListener('keydown', (e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
@@ -298,11 +298,11 @@ class BBYOMusicTracker {
             });
         });
 
-        // Add animation classes
+        // Simple fade-in animation
         tbody.querySelectorAll('.artist-row').forEach((row, index) => {
             setTimeout(() => {
                 row.classList.add('fade-in');
-            }, index * 50);
+            }, index * 25);
         });
     }
 
