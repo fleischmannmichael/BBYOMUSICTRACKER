@@ -199,6 +199,9 @@ body {
 /* Artists Grid */
 .artists-grid {
     padding: 0 1rem 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .artist-card {
@@ -605,17 +608,18 @@ body {
     .controls {
         position: static;
         padding: 2rem;
+        max-width: 600px;
+        margin: 0 auto;
     }
 
     .artists-grid {
         padding: 0 2rem 3rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap: 1rem;
+        max-width: 600px;
+        margin: 0 auto;
     }
 
     .artist-card {
-        margin-bottom: 0;
+        margin-bottom: 0.75rem;
     }
 
     .playlist-modal {
@@ -637,8 +641,9 @@ body {
 
 @media (min-width: 1024px) {
     .artists-grid {
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 1.5rem;
+        padding: 0 2rem 3rem;
+        max-width: 600px;
+        margin: 0 auto;
     }
 }
 
