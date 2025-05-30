@@ -598,19 +598,23 @@ body {
 @media (min-width: 768px) {
     .header {
         padding: 3rem 2rem;
-        position: static;
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 
     .controls {
-        position: static;
+        position: sticky;
+        top: 0;
+        z-index: 90;
         padding: 2rem;
-        max-width: 700px;
+        max-width: 800px;
         margin: 0 auto;
     }
 
     .artists-grid {
         padding: 0 2rem 3rem;
-        max-width: 700px;
+        max-width: 800px;
         margin: 0 auto;
         display: block;
     }
@@ -640,14 +644,14 @@ body {
 @media (min-width: 1024px) {
     .artists-grid {
         padding: 0 2rem 3rem;
-        max-width: 750px;
+        max-width: 900px;
         margin: 0 auto;
         display: block;
     }
     
     .artist-card {
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 1.25rem;
     }
 }
 
