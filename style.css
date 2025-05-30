@@ -202,6 +202,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     width: 100%;
+    display: block;
 }
 
 .artist-card {
@@ -213,6 +214,7 @@ body {
     cursor: pointer;
     transition: all 0.2s ease;
     border: 1px solid #f3f4f6;
+    width: 100%;
 }
 
 .artist-card:hover {
@@ -616,10 +618,12 @@ body {
         padding: 0 2rem 3rem;
         max-width: 600px;
         margin: 0 auto;
+        display: block;
     }
 
     .artist-card {
         margin-bottom: 0.75rem;
+        width: 100%;
     }
 
     .playlist-modal {
@@ -644,6 +648,11 @@ body {
         padding: 0 2rem 3rem;
         max-width: 600px;
         margin: 0 auto;
+        display: block;
+    }
+    
+    .artist-card {
+        width: 100%;
     }
 }
 
