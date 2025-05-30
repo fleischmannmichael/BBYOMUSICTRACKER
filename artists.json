@@ -37,11 +37,10 @@
       "Sweden",
       "Switzerland",
       "Taiwan",
-      "Thailand",
       "UK",
       "USA"
     ],
-    "country_count": 38
+    "country_count": 37
   },
   {
     "artist": "Alex Warren",
@@ -160,6 +159,7 @@
       "Australia",
       "Austria",
       "Belgium",
+      "Bulgaria",
       "Canada",
       "Czech Republic",
       "France",
@@ -169,6 +169,7 @@
       "Ireland",
       "Israel",
       "Japan",
+      "Latvia",
       "Malaysia",
       "Netherlands",
       "New Zealand",
@@ -182,7 +183,61 @@
       "UK",
       "USA"
     ],
-    "country_count": 24
+    "country_count": 26
+  },
+  {
+    "artist": "Jin",
+    "countries_charted": [
+      "Argentina",
+      "Brazil",
+      "Canada",
+      "Chile",
+      "Colombia",
+      "Global",
+      "Hong Kong",
+      "Indonesia",
+      "Japan",
+      "Latvia",
+      "Lithuania",
+      "Malaysia",
+      "Peru",
+      "Philippines",
+      "Romania",
+      "Singapore",
+      "South Korea",
+      "Taiwan",
+      "Thailand",
+      "Uruguay",
+      "Venezuela"
+    ],
+    "country_count": 21
+  },
+  {
+    "artist": "MOLIY",
+    "countries_charted": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Canada",
+      "Costa Rica",
+      "Estonia",
+      "Germany",
+      "Global",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Malaysia",
+      "Netherlands",
+      "New Zealand",
+      "Poland",
+      "Romania",
+      "Singapore",
+      "Slovakia",
+      "Switzerland",
+      "UK"
+    ],
+    "country_count": 21
   },
   {
     "artist": "Ravyn Lenae",
@@ -199,44 +254,15 @@
       "Ireland",
       "Latvia",
       "Lithuania",
-      "Malaysia",
       "Netherlands",
       "New Zealand",
       "Norway",
       "Poland",
       "Singapore",
-      "Slovakia",
       "Sweden",
       "Switzerland",
       "UK",
       "USA"
-    ],
-    "country_count": 23
-  },
-  {
-    "artist": "MOLIY",
-    "countries_charted": [
-      "Australia",
-      "Austria",
-      "Belgium",
-      "Bulgaria",
-      "Canada",
-      "Costa Rica",
-      "Czech Republic",
-      "Estonia",
-      "Germany",
-      "Global",
-      "Hungary",
-      "Latvia",
-      "Lithuania",
-      "Netherlands",
-      "New Zealand",
-      "Poland",
-      "Romania",
-      "Singapore",
-      "Slovakia",
-      "Switzerland",
-      "UK"
     ],
     "country_count": 21
   },
@@ -268,102 +294,6 @@
     "country_count": 21
   },
   {
-    "artist": "Jin",
-    "countries_charted": [
-      "Argentina",
-      "Brazil",
-      "Chile",
-      "Colombia",
-      "Global",
-      "Hong Kong",
-      "Indonesia",
-      "Japan",
-      "Latvia",
-      "Lithuania",
-      "Malaysia",
-      "Peru",
-      "Philippines",
-      "Romania",
-      "Singapore",
-      "South Korea",
-      "Taiwan",
-      "Thailand",
-      "Uruguay",
-      "Venezuela"
-    ],
-    "country_count": 20
-  },
-  {
-    "artist": "Lola Young",
-    "countries_charted": [
-      "Australia",
-      "Austria",
-      "Belgium",
-      "Canada",
-      "Estonia",
-      "France",
-      "Germany",
-      "Global",
-      "Ireland",
-      "Lithuania",
-      "Netherlands",
-      "New Zealand",
-      "Norway",
-      "Poland",
-      "Portugal",
-      "Slovakia",
-      "Switzerland",
-      "UK"
-    ],
-    "country_count": 18
-  },
-  {
-    "artist": "Gracie Abrams",
-    "countries_charted": [
-      "Australia",
-      "Austria",
-      "Belgium",
-      "Canada",
-      "Germany",
-      "Global",
-      "Ireland",
-      "Israel",
-      "Malaysia",
-      "Netherlands",
-      "New Zealand",
-      "Norway",
-      "Portugal",
-      "Singapore",
-      "Switzerland",
-      "UK",
-      "USA"
-    ],
-    "country_count": 17
-  },
-  {
-    "artist": "Gigi Perez",
-    "countries_charted": [
-      "Australia",
-      "Austria",
-      "Belgium",
-      "Canada",
-      "Czech Republic",
-      "Estonia",
-      "Global",
-      "Indonesia",
-      "Ireland",
-      "Latvia",
-      "Lithuania",
-      "New Zealand",
-      "Portugal",
-      "Singapore",
-      "Slovakia",
-      "UK",
-      "USA"
-    ],
-    "country_count": 17
-  },
-  {
     "artist": "Bad Bunny",
     "countries_charted": [
       "Argentina",
@@ -386,6 +316,50 @@
     "country_count": 16
   },
   {
+    "artist": "Gigi Perez",
+    "countries_charted": [
+      "Australia",
+      "Austria",
+      "Canada",
+      "Czech Republic",
+      "Estonia",
+      "Global",
+      "Indonesia",
+      "Ireland",
+      "Latvia",
+      "Lithuania",
+      "New Zealand",
+      "Portugal",
+      "Singapore",
+      "Slovakia",
+      "UK",
+      "USA"
+    ],
+    "country_count": 16
+  },
+  {
+    "artist": "Lola Young",
+    "countries_charted": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Canada",
+      "France",
+      "Germany",
+      "Global",
+      "Ireland",
+      "Lithuania",
+      "Netherlands",
+      "New Zealand",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Switzerland",
+      "UK"
+    ],
+    "country_count": 16
+  },
+  {
     "artist": "Jimin",
     "countries_charted": [
       "Bulgaria",
@@ -403,6 +377,27 @@
       "USA",
       "Uruguay",
       "Venezuela"
+    ],
+    "country_count": 15
+  },
+  {
+    "artist": "Gracie Abrams",
+    "countries_charted": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Canada",
+      "Germany",
+      "Global",
+      "Ireland",
+      "Israel",
+      "Malaysia",
+      "New Zealand",
+      "Portugal",
+      "Singapore",
+      "Switzerland",
+      "UK",
+      "USA"
     ],
     "country_count": 15
   },
@@ -448,26 +443,6 @@
     "country_count": 14
   },
   {
-    "artist": "Teddy Swims",
-    "countries_charted": [
-      "Australia",
-      "Belgium",
-      "Canada",
-      "Global",
-      "Lithuania",
-      "Netherlands",
-      "New Zealand",
-      "Norway",
-      "Poland",
-      "Portugal",
-      "Sweden",
-      "Switzerland",
-      "UK",
-      "USA"
-    ],
-    "country_count": 14
-  },
-  {
     "artist": "KAROL G",
     "countries_charted": [
       "Argentina",
@@ -488,21 +463,40 @@
     "country_count": 14
   },
   {
-    "artist": "Tate McRae",
+    "artist": "Teddy Swims",
+    "countries_charted": [
+      "Australia",
+      "Belgium",
+      "Canada",
+      "Global",
+      "Lithuania",
+      "New Zealand",
+      "Norway",
+      "Poland",
+      "Portugal",
+      "Sweden",
+      "Switzerland",
+      "UK",
+      "USA"
+    ],
+    "country_count": 13
+  },
+  {
+    "artist": "Chrystal",
     "countries_charted": [
       "Australia",
       "Austria",
       "Belgium",
-      "Bulgaria",
       "Canada",
-      "Global",
+      "Estonia",
+      "Germany",
       "Ireland",
       "Latvia",
       "Lithuania",
       "New Zealand",
-      "Singapore",
-      "UK",
-      "USA"
+      "Poland",
+      "Slovakia",
+      "UK"
     ],
     "country_count": 13
   },
@@ -544,9 +538,25 @@
     "country_count": 12
   },
   {
+    "artist": "Tate McRae",
+    "countries_charted": [
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Canada",
+      "Global",
+      "Ireland",
+      "New Zealand",
+      "Singapore",
+      "UK",
+      "USA"
+    ],
+    "country_count": 11
+  },
+  {
     "artist": "Ed Sheeran",
     "countries_charted": [
-      "Austria",
       "Belgium",
       "Denmark",
       "France",
@@ -559,43 +569,7 @@
       "Switzerland",
       "UK"
     ],
-    "country_count": 12
-  },
-  {
-    "artist": "Chrystal",
-    "countries_charted": [
-      "Australia",
-      "Austria",
-      "Belgium",
-      "Czech Republic",
-      "Estonia",
-      "Germany",
-      "Ireland",
-      "Latvia",
-      "Lithuania",
-      "New Zealand",
-      "Poland",
-      "UK"
-    ],
-    "country_count": 12
-  },
-  {
-    "artist": "KAJ",
-    "countries_charted": [
-      "Austria",
-      "Belgium",
-      "Estonia",
-      "Finland",
-      "Germany",
-      "Latvia",
-      "Lithuania",
-      "Netherlands",
-      "Norway",
-      "Poland",
-      "Sweden",
-      "Switzerland"
-    ],
-    "country_count": 12
+    "country_count": 11
   },
   {
     "artist": "The Weeknd",
@@ -630,7 +604,7 @@
     "country_count": 10
   },
   {
-    "artist": "Kyle Alessandro",
+    "artist": "KAJ",
     "countries_charted": [
       "Austria",
       "Estonia",
@@ -642,6 +616,22 @@
       "Poland",
       "Sweden",
       "Switzerland"
+    ],
+    "country_count": 10
+  },
+  {
+    "artist": "Alleh",
+    "countries_charted": [
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Costa Rica",
+      "Italy",
+      "Peru",
+      "Portugal",
+      "Spain",
+      "Uruguay",
+      "Venezuela"
     ],
     "country_count": 10
   },
@@ -676,21 +666,6 @@
     "country_count": 9
   },
   {
-    "artist": "Lord Huron",
-    "countries_charted": [
-      "Australia",
-      "Austria",
-      "Belgium",
-      "Global",
-      "New Zealand",
-      "Norway",
-      "Sweden",
-      "Switzerland",
-      "UK"
-    ],
-    "country_count": 9
-  },
-  {
     "artist": "Beéle",
     "countries_charted": [
       "Argentina",
@@ -702,21 +677,6 @@
       "Spain",
       "Uruguay",
       "Venezuela"
-    ],
-    "country_count": 9
-  },
-  {
-    "artist": "Doechii",
-    "countries_charted": [
-      "Australia",
-      "Austria",
-      "Belgium",
-      "France",
-      "Germany",
-      "Global",
-      "Poland",
-      "Switzerland",
-      "UK"
     ],
     "country_count": 9
   },
@@ -766,32 +726,17 @@
     "country_count": 9
   },
   {
-    "artist": "Alleh",
+    "artist": "Kyle Alessandro",
     "countries_charted": [
-      "Argentina",
-      "Chile",
-      "Colombia",
-      "Costa Rica",
-      "Italy",
-      "Peru",
-      "Spain",
-      "Uruguay",
-      "Venezuela"
-    ],
-    "country_count": 9
-  },
-  {
-    "artist": "Jombriel",
-    "countries_charted": [
-      "Argentina",
-      "Chile",
-      "Colombia",
-      "Costa Rica",
-      "Mexico",
-      "Peru",
-      "Spain",
-      "Uruguay",
-      "Venezuela"
+      "Austria",
+      "Estonia",
+      "Finland",
+      "Latvia",
+      "Lithuania",
+      "Norway",
+      "Poland",
+      "Sweden",
+      "Switzerland"
     ],
     "country_count": 9
   },
@@ -810,30 +755,30 @@
     "country_count": 8
   },
   {
-    "artist": "Drake",
+    "artist": "Doechii",
     "countries_charted": [
       "Australia",
-      "Canada",
+      "Austria",
+      "Belgium",
+      "France",
+      "Germany",
       "Global",
-      "Ireland",
-      "Latvia",
-      "New Zealand",
-      "UK",
-      "USA"
+      "Poland",
+      "Switzerland"
     ],
     "country_count": 8
   },
   {
-    "artist": "yung kai",
+    "artist": "Myles Smith",
     "countries_charted": [
-      "Global",
-      "Hong Kong",
-      "Indonesia",
-      "Malaysia",
-      "Philippines",
-      "Singapore",
-      "South Korea",
-      "Taiwan"
+      "Australia",
+      "Austria",
+      "Belgium",
+      "Canada",
+      "Netherlands",
+      "New Zealand",
+      "Switzerland",
+      "UK"
     ],
     "country_count": 8
   },
@@ -852,7 +797,7 @@
     "country_count": 8
   },
   {
-    "artist": "Yan Block",
+    "artist": "Danny Ocean",
     "countries_charted": [
       "Argentina",
       "Chile",
@@ -866,7 +811,7 @@
     "country_count": 8
   },
   {
-    "artist": "Danny Ocean",
+    "artist": "Yan Block",
     "countries_charted": [
       "Argentina",
       "Chile",
@@ -907,6 +852,19 @@
     "country_count": 7
   },
   {
+    "artist": "Lord Huron",
+    "countries_charted": [
+      "Austria",
+      "Belgium",
+      "Global",
+      "New Zealand",
+      "Norway",
+      "Switzerland",
+      "UK"
+    ],
+    "country_count": 7
+  },
+  {
     "artist": "Chappell Roan",
     "countries_charted": [
       "Australia",
@@ -920,15 +878,15 @@
     "country_count": 7
   },
   {
-    "artist": "KATSEYE",
+    "artist": "Drake",
     "countries_charted": [
+      "Australia",
+      "Canada",
       "Global",
-      "Hong Kong",
-      "Malaysia",
-      "Philippines",
-      "Singapore",
-      "South Korea",
-      "Taiwan"
+      "Ireland",
+      "New Zealand",
+      "UK",
+      "USA"
     ],
     "country_count": 7
   },
@@ -946,15 +904,15 @@
     "country_count": 7
   },
   {
-    "artist": "Myles Smith",
+    "artist": "Shaboozey",
     "countries_charted": [
       "Australia",
-      "Belgium",
       "Canada",
-      "Netherlands",
+      "Ireland",
       "New Zealand",
-      "Switzerland",
-      "UK"
+      "Sweden",
+      "UK",
+      "USA"
     ],
     "country_count": 7
   },
@@ -985,15 +943,15 @@
     "country_count": 7
   },
   {
-    "artist": "Empire Of The Sun",
+    "artist": "Jombriel",
     "countries_charted": [
-      "Austria",
-      "Belgium",
-      "Estonia",
-      "Ireland",
-      "Latvia",
-      "Lithuania",
-      "Switzerland"
+      "Argentina",
+      "Colombia",
+      "Costa Rica",
+      "Peru",
+      "Spain",
+      "Uruguay",
+      "Venezuela"
     ],
     "country_count": 7
   },
@@ -1024,6 +982,19 @@
     "country_count": 7
   },
   {
+    "artist": "yung kai",
+    "countries_charted": [
+      "Hong Kong",
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Singapore",
+      "South Korea",
+      "Taiwan"
+    ],
+    "country_count": 7
+  },
+  {
     "artist": "Fuerza Regida",
     "countries_charted": [
       "Chile",
@@ -1036,26 +1007,14 @@
     "country_count": 6
   },
   {
-    "artist": "Post Malone",
+    "artist": "KATSEYE",
     "countries_charted": [
-      "Australia",
-      "Canada",
-      "Ireland",
-      "New Zealand",
-      "UK",
-      "USA"
-    ],
-    "country_count": 6
-  },
-  {
-    "artist": "Shaboozey",
-    "countries_charted": [
-      "Australia",
-      "Canada",
-      "Ireland",
-      "New Zealand",
-      "UK",
-      "USA"
+      "Global",
+      "Hong Kong",
+      "Malaysia",
+      "Philippines",
+      "Singapore",
+      "South Korea"
     ],
     "country_count": 6
   },
@@ -1072,13 +1031,25 @@
     "country_count": 6
   },
   {
-    "artist": "Tom Odell",
+    "artist": "The Killers",
     "countries_charted": [
+      "Australia",
       "Austria",
+      "Canada",
+      "Ireland",
+      "New Zealand",
+      "UK"
+    ],
+    "country_count": 6
+  },
+  {
+    "artist": "David Guetta",
+    "countries_charted": [
       "Belgium",
-      "Czech Republic",
+      "France",
+      "Latvia",
       "Netherlands",
-      "Norway",
+      "Poland",
       "Switzerland"
     ],
     "country_count": 6
@@ -1096,37 +1067,25 @@
     "country_count": 6
   },
   {
-    "artist": "Slayter",
-    "countries_charted": [
-      "Argentina",
-      "Chile",
-      "Costa Rica",
-      "Spain",
-      "Uruguay",
-      "Venezuela"
-    ],
-    "country_count": 6
-  },
-  {
-    "artist": "Young Miko",
-    "countries_charted": [
-      "Argentina",
-      "Costa Rica",
-      "Mexico",
-      "Peru",
-      "Uruguay",
-      "Venezuela"
-    ],
-    "country_count": 6
-  },
-  {
-    "artist": "ATLXS",
+    "artist": "Empire Of The Sun",
     "countries_charted": [
       "Austria",
-      "Czech Republic",
-      "Germany",
-      "Global",
+      "Estonia",
+      "Ireland",
+      "Latvia",
+      "Lithuania",
       "Switzerland"
+    ],
+    "country_count": 6
+  },
+  {
+    "artist": "Coldplay",
+    "countries_charted": [
+      "Australia",
+      "Global",
+      "New Zealand",
+      "Switzerland",
+      "UK"
     ],
     "country_count": 5
   },
@@ -1137,6 +1096,17 @@
       "Malaysia",
       "New Zealand",
       "Singapore",
+      "USA"
+    ],
+    "country_count": 5
+  },
+  {
+    "artist": "Post Malone",
+    "countries_charted": [
+      "Australia",
+      "Canada",
+      "New Zealand",
+      "UK",
       "USA"
     ],
     "country_count": 5
@@ -1153,17 +1123,6 @@
     "country_count": 5
   },
   {
-    "artist": "Lorde",
-    "countries_charted": [
-      "Australia",
-      "Ireland",
-      "New Zealand",
-      "UK",
-      "USA"
-    ],
-    "country_count": 5
-  },
-  {
     "artist": "mgk",
     "countries_charted": [
       "Australia",
@@ -1175,33 +1134,22 @@
     "country_count": 5
   },
   {
-    "artist": "The Killers",
-    "countries_charted": [
-      "Australia",
-      "Canada",
-      "Ireland",
-      "New Zealand",
-      "UK"
-    ],
-    "country_count": 5
-  },
-  {
-    "artist": "David Guetta",
-    "countries_charted": [
-      "Belgium",
-      "France",
-      "Netherlands",
-      "Poland",
-      "Switzerland"
-    ],
-    "country_count": 5
-  },
-  {
     "artist": "Nicky Jam",
     "countries_charted": [
       "Colombia",
       "Costa Rica",
       "Peru",
+      "Spain",
+      "Venezuela"
+    ],
+    "country_count": 5
+  },
+  {
+    "artist": "Slayter",
+    "countries_charted": [
+      "Argentina",
+      "Chile",
+      "Costa Rica",
       "Spain",
       "Venezuela"
     ],
@@ -1219,28 +1167,6 @@
     "country_count": 5
   },
   {
-    "artist": "VÆB",
-    "countries_charted": [
-      "Estonia",
-      "Finland",
-      "Latvia",
-      "Sweden",
-      "Switzerland"
-    ],
-    "country_count": 5
-  },
-  {
-    "artist": "Damiano David",
-    "countries_charted": [
-      "Austria",
-      "Belgium",
-      "Czech Republic",
-      "Hungary",
-      "Romania"
-    ],
-    "country_count": 5
-  },
-  {
     "artist": "Lucio Corsi",
     "countries_charted": [
       "Austria",
@@ -1248,6 +1174,28 @@
       "Latvia",
       "Lithuania",
       "Switzerland"
+    ],
+    "country_count": 5
+  },
+  {
+    "artist": "Young Miko",
+    "countries_charted": [
+      "Argentina",
+      "Costa Rica",
+      "Peru",
+      "Uruguay",
+      "Venezuela"
+    ],
+    "country_count": 5
+  },
+  {
+    "artist": "V",
+    "countries_charted": [
+      "Bulgaria",
+      "Hong Kong",
+      "South Korea",
+      "Taiwan",
+      "Thailand"
     ],
     "country_count": 5
   },
@@ -1263,22 +1211,42 @@
     "country_count": 5
   },
   {
-    "artist": "NIKI",
-    "countries_charted": [
-      "Global",
-      "Indonesia",
-      "Malaysia",
-      "Philippines"
-    ],
-    "country_count": 4
-  },
-  {
     "artist": "Tyler, The Creator",
     "countries_charted": [
       "Australia",
       "Global",
       "New Zealand",
       "USA"
+    ],
+    "country_count": 4
+  },
+  {
+    "artist": "ATLXS",
+    "countries_charted": [
+      "Austria",
+      "Germany",
+      "Global",
+      "Switzerland"
+    ],
+    "country_count": 4
+  },
+  {
+    "artist": "Alemán",
+    "countries_charted": [
+      "Chile",
+      "Global",
+      "Mexico",
+      "Peru"
+    ],
+    "country_count": 4
+  },
+  {
+    "artist": "NIKI",
+    "countries_charted": [
+      "Global",
+      "Indonesia",
+      "Malaysia",
+      "Philippines"
     ],
     "country_count": 4
   },
@@ -1313,16 +1281,6 @@
     "country_count": 4
   },
   {
-    "artist": "Vance Joy",
-    "countries_charted": [
-      "Australia",
-      "Belgium",
-      "Canada",
-      "New Zealand"
-    ],
-    "country_count": 4
-  },
-  {
     "artist": "Natasha Bedingfield",
     "countries_charted": [
       "Austria",
@@ -1343,11 +1301,21 @@
     "country_count": 4
   },
   {
-    "artist": "GIMS",
+    "artist": "Macklemore",
     "countries_charted": [
+      "Austria",
       "Belgium",
-      "France",
-      "Hungary",
+      "Germany",
+      "Switzerland"
+    ],
+    "country_count": 4
+  },
+  {
+    "artist": "OneRepublic",
+    "countries_charted": [
+      "Australia",
+      "Ireland",
+      "New Zealand",
       "Switzerland"
     ],
     "country_count": 4
@@ -1363,6 +1331,16 @@
     "country_count": 4
   },
   {
+    "artist": "VÆB",
+    "countries_charted": [
+      "Estonia",
+      "Finland",
+      "Sweden",
+      "Switzerland"
+    ],
+    "country_count": 4
+  },
+  {
     "artist": "Erika Vikman",
     "countries_charted": [
       "Estonia",
@@ -1373,12 +1351,12 @@
     "country_count": 4
   },
   {
-    "artist": "NAPA",
+    "artist": "Damiano David",
     "countries_charted": [
-      "Estonia",
-      "Latvia",
-      "Lithuania",
-      "Portugal"
+      "Belgium",
+      "Czech Republic",
+      "Hungary",
+      "Romania"
     ],
     "country_count": 4
   },
@@ -1423,26 +1401,6 @@
     "country_count": 4
   },
   {
-    "artist": "SZA",
-    "countries_charted": [
-      "Malaysia",
-      "New Zealand",
-      "Philippines",
-      "South Africa"
-    ],
-    "country_count": 4
-  },
-  {
-    "artist": "V",
-    "countries_charted": [
-      "Hong Kong",
-      "South Korea",
-      "Taiwan",
-      "Thailand"
-    ],
-    "country_count": 4
-  },
-  {
     "artist": "LBI利比",
     "countries_charted": [
       "Hong Kong",
@@ -1471,24 +1429,6 @@
     "country_count": 3
   },
   {
-    "artist": "Coldplay",
-    "countries_charted": [
-      "Global",
-      "New Zealand",
-      "UK"
-    ],
-    "country_count": 3
-  },
-  {
-    "artist": "Radiohead",
-    "countries_charted": [
-      "Global",
-      "UK",
-      "USA"
-    ],
-    "country_count": 3
-  },
-  {
     "artist": "d4vd",
     "countries_charted": [
       "Malaysia",
@@ -1498,9 +1438,45 @@
     "country_count": 3
   },
   {
+    "artist": "Lorde",
+    "countries_charted": [
+      "Ireland",
+      "New Zealand",
+      "USA"
+    ],
+    "country_count": 3
+  },
+  {
+    "artist": "Vance Joy",
+    "countries_charted": [
+      "Australia",
+      "Canada",
+      "New Zealand"
+    ],
+    "country_count": 3
+  },
+  {
+    "artist": "Dasha",
+    "countries_charted": [
+      "Australia",
+      "Canada",
+      "UK"
+    ],
+    "country_count": 3
+  },
+  {
     "artist": "Sam Barber",
     "countries_charted": [
       "Australia",
+      "Canada",
+      "New Zealand"
+    ],
+    "country_count": 3
+  },
+  {
+    "artist": "Journey",
+    "countries_charted": [
+      "Austria",
       "Canada",
       "New Zealand"
     ],
@@ -1552,25 +1528,7 @@
     "country_count": 3
   },
   {
-    "artist": "Apache 207",
-    "countries_charted": [
-      "Austria",
-      "Germany",
-      "Switzerland"
-    ],
-    "country_count": 3
-  },
-  {
     "artist": "Nina Chuba",
-    "countries_charted": [
-      "Austria",
-      "Germany",
-      "Switzerland"
-    ],
-    "country_count": 3
-  },
-  {
-    "artist": "Azet",
     "countries_charted": [
       "Austria",
       "Germany",
@@ -1588,7 +1546,7 @@
     "country_count": 3
   },
   {
-    "artist": "Werenoi",
+    "artist": "GIMS",
     "countries_charted": [
       "Belgium",
       "France",
@@ -1597,11 +1555,11 @@
     "country_count": 3
   },
   {
-    "artist": "Claude",
+    "artist": "Werenoi",
     "countries_charted": [
-      "Estonia",
-      "Lithuania",
-      "Netherlands"
+      "Belgium",
+      "France",
+      "Switzerland"
     ],
     "country_count": 3
   },
@@ -1624,29 +1582,38 @@
     "country_count": 3
   },
   {
-    "artist": "Adam Port",
+    "artist": "Tom Odell",
     "countries_charted": [
       "Belgium",
+      "Czech Republic",
+      "Switzerland"
+    ],
+    "country_count": 3
+  },
+  {
+    "artist": "Adam Port",
+    "countries_charted": [
+      "Bulgaria",
       "Portugal",
       "Switzerland"
     ],
     "country_count": 3
   },
   {
-    "artist": "Alemán",
+    "artist": "NAPA",
     "countries_charted": [
-      "Chile",
-      "Mexico",
-      "Peru"
+      "Estonia",
+      "Lithuania",
+      "Portugal"
     ],
     "country_count": 3
   },
   {
-    "artist": "Mattei",
+    "artist": "Carín León",
     "countries_charted": [
-      "Argentina",
       "Chile",
-      "Uruguay"
+      "Costa Rica",
+      "Mexico"
     ],
     "country_count": 3
   },
@@ -1674,6 +1641,15 @@
       "Colombia",
       "Costa Rica",
       "Peru"
+    ],
+    "country_count": 3
+  },
+  {
+    "artist": "SZA",
+    "countries_charted": [
+      "Malaysia",
+      "New Zealand",
+      "South Africa"
     ],
     "country_count": 3
   },
@@ -1714,27 +1690,10 @@
     "country_count": 3
   },
   {
-    "artist": "Katarsis",
-    "countries_charted": [
-      "Estonia",
-      "Latvia",
-      "Lithuania"
-    ],
-    "country_count": 3
-  },
-  {
     "artist": "The Neighbourhood",
     "countries_charted": [
       "Global",
       "Latvia"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "The Police",
-    "countries_charted": [
-      "Global",
-      "Ireland"
     ],
     "country_count": 2
   },
@@ -1747,10 +1706,18 @@
     "country_count": 2
   },
   {
-    "artist": "Esau Ortiz",
+    "artist": "The Police",
     "countries_charted": [
       "Global",
-      "Mexico"
+      "Ireland"
+    ],
+    "country_count": 2
+  },
+  {
+    "artist": "Radiohead",
+    "countries_charted": [
+      "Global",
+      "USA"
     ],
     "country_count": 2
   },
@@ -1771,10 +1738,10 @@
     "country_count": 2
   },
   {
-    "artist": "Journey",
+    "artist": "Max Dean",
     "countries_charted": [
-      "Canada",
-      "New Zealand"
+      "Ireland",
+      "UK"
     ],
     "country_count": 2
   },
@@ -1787,7 +1754,7 @@
     "country_count": 2
   },
   {
-    "artist": "Zsá Zsá",
+    "artist": "Apache 207",
     "countries_charted": [
       "Austria",
       "Germany"
@@ -1803,7 +1770,7 @@
     "country_count": 2
   },
   {
-    "artist": "ZAH1DE",
+    "artist": "Zsá Zsá",
     "countries_charted": [
       "Austria",
       "Germany"
@@ -1819,6 +1786,14 @@
     "country_count": 2
   },
   {
+    "artist": "ZAH1DE",
+    "countries_charted": [
+      "Austria",
+      "Germany"
+    ],
+    "country_count": 2
+  },
+  {
     "artist": "LACAZETTE",
     "countries_charted": [
       "Austria",
@@ -1827,31 +1802,7 @@
     "country_count": 2
   },
   {
-    "artist": "Kontra K",
-    "countries_charted": [
-      "Austria",
-      "Germany"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "Shindy",
-    "countries_charted": [
-      "Germany",
-      "Switzerland"
-    ],
-    "country_count": 2
-  },
-  {
     "artist": "reezy",
-    "countries_charted": [
-      "Austria",
-      "Germany"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "Bonez MC",
     "countries_charted": [
       "Austria",
       "Germany"
@@ -1883,7 +1834,7 @@
     "country_count": 2
   },
   {
-    "artist": "Siaka",
+    "artist": "Nono La Grinta",
     "countries_charted": [
       "Belgium",
       "France"
@@ -1891,7 +1842,7 @@
     "country_count": 2
   },
   {
-    "artist": "Nono La Grinta",
+    "artist": "Siaka",
     "countries_charted": [
       "Belgium",
       "France"
@@ -1915,6 +1866,14 @@
     "country_count": 2
   },
   {
+    "artist": "Suzan",
+    "countries_charted": [
+      "Belgium",
+      "Netherlands"
+    ],
+    "country_count": 2
+  },
+  {
     "artist": "Frenna",
     "countries_charted": [
       "Belgium",
@@ -1931,9 +1890,9 @@
     "country_count": 2
   },
   {
-    "artist": "Suzan",
+    "artist": "Claude",
     "countries_charted": [
-      "Belgium",
+      "Lithuania",
       "Netherlands"
     ],
     "country_count": 2
@@ -1955,6 +1914,14 @@
     "country_count": 2
   },
   {
+    "artist": "De La Rose",
+    "countries_charted": [
+      "Spain",
+      "Venezuela"
+    ],
+    "country_count": 2
+  },
+  {
     "artist": "Tjuvjakt",
     "countries_charted": [
       "Norway",
@@ -1971,7 +1938,7 @@
     "country_count": 2
   },
   {
-    "artist": "ADAAM",
+    "artist": "Niklas Strömstedt",
     "countries_charted": [
       "Norway",
       "Sweden"
@@ -1980,14 +1947,6 @@
   },
   {
     "artist": "Søte og Rare Gutter",
-    "countries_charted": [
-      "Norway",
-      "Sweden"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "Niklas Strömstedt",
     "countries_charted": [
       "Norway",
       "Sweden"
@@ -2051,6 +2010,14 @@
     "country_count": 2
   },
   {
+    "artist": "Neny",
+    "countries_charted": [
+      "Czech Republic",
+      "Slovakia"
+    ],
+    "country_count": 2
+  },
+  {
     "artist": "Slavíček",
     "countries_charted": [
       "Czech Republic",
@@ -2059,7 +2026,7 @@
     "country_count": 2
   },
   {
-    "artist": "Neny",
+    "artist": "Ewa Farna",
     "countries_charted": [
       "Czech Republic",
       "Slovakia"
@@ -2091,7 +2058,7 @@
     "country_count": 2
   },
   {
-    "artist": "Viktor Sheen",
+    "artist": "Separ",
     "countries_charted": [
       "Czech Republic",
       "Slovakia"
@@ -2099,7 +2066,7 @@
     "country_count": 2
   },
   {
-    "artist": "Separ",
+    "artist": "Viktor Sheen",
     "countries_charted": [
       "Czech Republic",
       "Slovakia"
@@ -2123,10 +2090,18 @@
     "country_count": 2
   },
   {
-    "artist": "Pil C",
+    "artist": "G1nter",
     "countries_charted": [
       "Czech Republic",
       "Slovakia"
+    ],
+    "country_count": 2
+  },
+  {
+    "artist": "Lost Frequencies",
+    "countries_charted": [
+      "Belgium",
+      "Switzerland"
     ],
     "country_count": 2
   },
@@ -2147,7 +2122,7 @@
     "country_count": 2
   },
   {
-    "artist": "Mc Jacaré",
+    "artist": "Kew",
     "countries_charted": [
       "Brazil",
       "Portugal"
@@ -2155,7 +2130,7 @@
     "country_count": 2
   },
   {
-    "artist": "Kew",
+    "artist": "Mc Jacaré",
     "countries_charted": [
       "Brazil",
       "Portugal"
@@ -2171,31 +2146,7 @@
     "country_count": 2
   },
   {
-    "artist": "Oruam",
-    "countries_charted": [
-      "Brazil",
-      "Portugal"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "Nego Trufa",
-    "countries_charted": [
-      "Brazil",
-      "Portugal"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "MC Tuto",
-    "countries_charted": [
-      "Brazil",
-      "Portugal"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "DJ TOPO",
+    "artist": "Chefin",
     "countries_charted": [
       "Brazil",
       "Portugal"
@@ -2219,6 +2170,14 @@
     "country_count": 2
   },
   {
+    "artist": "DJ TOPO",
+    "countries_charted": [
+      "Brazil",
+      "Portugal"
+    ],
+    "country_count": 2
+  },
+  {
     "artist": "MC LUUKY",
     "countries_charted": [
       "Brazil",
@@ -2227,7 +2186,23 @@
     "country_count": 2
   },
   {
+    "artist": "Nego Trufa",
+    "countries_charted": [
+      "Brazil",
+      "Portugal"
+    ],
+    "country_count": 2
+  },
+  {
     "artist": "MC Jvila",
+    "countries_charted": [
+      "Brazil",
+      "Portugal"
+    ],
+    "country_count": 2
+  },
+  {
+    "artist": "MC Tuto",
     "countries_charted": [
       "Brazil",
       "Portugal"
@@ -2251,7 +2226,7 @@
     "country_count": 2
   },
   {
-    "artist": "Grupo Menos É Mais",
+    "artist": "tarisiix",
     "countries_charted": [
       "Brazil",
       "Portugal"
@@ -2267,6 +2242,14 @@
     "country_count": 2
   },
   {
+    "artist": "Victor Valverde",
+    "countries_charted": [
+      "Colombia",
+      "Mexico"
+    ],
+    "country_count": 2
+  },
+  {
     "artist": "DENNIS",
     "countries_charted": [
       "Argentina",
@@ -2275,7 +2258,7 @@
     "country_count": 2
   },
   {
-    "artist": "Salastkbron",
+    "artist": "Mattei",
     "countries_charted": [
       "Argentina",
       "Uruguay"
@@ -2284,6 +2267,14 @@
   },
   {
     "artist": "Cazzu",
+    "countries_charted": [
+      "Argentina",
+      "Uruguay"
+    ],
+    "country_count": 2
+  },
+  {
+    "artist": "Salastkbron",
     "countries_charted": [
       "Argentina",
       "Uruguay"
@@ -2307,14 +2298,6 @@
     "country_count": 2
   },
   {
-    "artist": "Lali",
-    "countries_charted": [
-      "Argentina",
-      "Uruguay"
-    ],
-    "country_count": 2
-  },
-  {
     "artist": "Babasonicos",
     "countries_charted": [
       "Argentina",
@@ -2323,7 +2306,7 @@
     "country_count": 2
   },
   {
-    "artist": "No Te Va Gustar",
+    "artist": "Lali",
     "countries_charted": [
       "Argentina",
       "Uruguay"
@@ -2331,7 +2314,15 @@
     "country_count": 2
   },
   {
-    "artist": "Luck Ra",
+    "artist": "Airbag",
+    "countries_charted": [
+      "Argentina",
+      "Uruguay"
+    ],
+    "country_count": 2
+  },
+  {
+    "artist": "No Te Va Gustar",
     "countries_charted": [
       "Argentina",
       "Uruguay"
@@ -2355,14 +2346,6 @@
     "country_count": 2
   },
   {
-    "artist": "Max Carra",
-    "countries_charted": [
-      "Argentina",
-      "Uruguay"
-    ],
-    "country_count": 2
-  },
-  {
     "artist": "YSY A",
     "countries_charted": [
       "Argentina",
@@ -2375,14 +2358,6 @@
     "countries_charted": [
       "Chile",
       "Peru"
-    ],
-    "country_count": 2
-  },
-  {
-    "artist": "Carín León",
-    "countries_charted": [
-      "Chile",
-      "Costa Rica"
     ],
     "country_count": 2
   },
@@ -2419,14 +2394,6 @@
     "country_count": 2
   },
   {
-    "artist": "G-DRAGON",
-    "countries_charted": [
-      "South Korea",
-      "Taiwan"
-    ],
-    "country_count": 2
-  },
-  {
     "artist": "Silence Wang",
     "countries_charted": [
       "Singapore",
@@ -2435,7 +2402,7 @@
     "country_count": 2
   },
   {
-    "artist": "Tenxi",
+    "artist": "Nadhif Basalamah",
     "countries_charted": [
       "Indonesia",
       "Malaysia"
@@ -2443,7 +2410,7 @@
     "country_count": 2
   },
   {
-    "artist": "Nadhif Basalamah",
+    "artist": "Tenxi",
     "countries_charted": [
       "Indonesia",
       "Malaysia"
@@ -2475,7 +2442,7 @@
     "country_count": 2
   },
   {
-    "artist": "Raim Laode",
+    "artist": "Faris Adam",
     "countries_charted": [
       "Indonesia",
       "Malaysia"
@@ -2483,7 +2450,15 @@
     "country_count": 2
   },
   {
-    "artist": "Faris Adam",
+    "artist": "Naykilla",
+    "countries_charted": [
+      "Indonesia",
+      "Malaysia"
+    ],
+    "country_count": 2
+  },
+  {
+    "artist": "Raim Laode",
     "countries_charted": [
       "Indonesia",
       "Malaysia"
@@ -2499,7 +2474,7 @@
     "country_count": 2
   },
   {
-    "artist": "Hindia",
+    "artist": "Feby Putri",
     "countries_charted": [
       "Indonesia",
       "Malaysia"
@@ -2507,7 +2482,7 @@
     "country_count": 2
   },
   {
-    "artist": "Feby Putri",
+    "artist": "Hindia",
     "countries_charted": [
       "Indonesia",
       "Malaysia"
@@ -2523,10 +2498,10 @@
     "country_count": 2
   },
   {
-    "artist": "Lyodra",
+    "artist": "JOLIN",
     "countries_charted": [
-      "Indonesia",
-      "Malaysia"
+      "Hong Kong",
+      "Taiwan"
     ],
     "country_count": 2
   },
@@ -2539,7 +2514,7 @@
     "country_count": 2
   },
   {
-    "artist": "Tautumeitas",
+    "artist": "Katarsis",
     "countries_charted": [
       "Latvia",
       "Lithuania"
@@ -2548,6 +2523,14 @@
   },
   {
     "artist": "Blood Orange",
+    "countries_charted": [
+      "Latvia",
+      "Lithuania"
+    ],
+    "country_count": 2
+  },
+  {
+    "artist": "Tautumeitas",
     "countries_charted": [
       "Latvia",
       "Lithuania"
