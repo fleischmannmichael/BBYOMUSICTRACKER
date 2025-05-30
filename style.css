@@ -1,4 +1,4 @@
-/* BBYO Global Music Tracker - Production CSS */
+/* BBYO Global Music Tracker - Final Perfect CSS */
 
 * {
     margin: 0;
@@ -15,12 +15,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* Header */
+/* Header - Never Sticky */
 .header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 2rem 1rem;
     text-align: center;
+    position: static;
     box-shadow: 0 8px 32px rgba(0,0,0,0.12);
 }
 
@@ -37,11 +38,12 @@ body {
     font-weight: 400;
 }
 
-/* Controls */
+/* Controls - Never Sticky */
 .controls {
     padding: 1rem;
     background: white;
     border-bottom: 1px solid #e5e7eb;
+    position: static;
 }
 
 .search-bar {
@@ -190,7 +192,7 @@ body {
     font-weight: 500;
 }
 
-/* Artists Grid */
+/* Artists Grid - Single Column Always */
 .artists-grid {
     padding: 0 1rem 2rem;
     max-width: 500px;
@@ -588,7 +590,7 @@ body {
     font-size: 0.85rem;
 }
 
-/* Responsive Design */
+/* Responsive Design - Larger Cards on Desktop */
 @media (min-width: 640px) {
     .export-options {
         grid-template-columns: repeat(4, 1fr);
